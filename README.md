@@ -2,8 +2,6 @@
 
 **RobustMesher** is a standalone Gmsh meshing framework for two-dimensional and three-dimensional geophysical velocity models. It builds a wavelength-based element-sizing field from SEG-Y or binary data, constructs the model and optional absorbing-layer geometry, generates the mesh, and adapts supported structured meshes with Winslow smoothing.
 
-The meshing routines come from [Spyro](https://github.com/NDF-Poli-USP/spyro), including the updated 2D and 3D implementation in [pull request #359](https://github.com/NDF-Poli-USP/spyro/pull/359). The package is organized into small utility folders following [PakMsh](https://github.com/NDF-Poli-USP/PakMsh).
-
 The repository and Python package are both named **RobustMesher**. The supplied notebooks import `RobustMesher` and load the bundled models from that package. SeismicMesh, Spyro, and Firedrake do not need to be installed.
 
 RobustMesher supports:
@@ -48,7 +46,7 @@ python -m pip install -e ".[examples]"
 
 On Windows PowerShell, activate the environment with `robustmesher_env\Scripts\Activate.ps1` instead.
 
-The full Marmousi models are stored with **Git LFS**: approximately 155 MB for the SEG-Y model and 137 MB for the 3D binary cube. Run `git lfs pull` before the examples so the model files contain the actual velocity data. When using a downloaded archive containing the complete model files, extract it and run the installation command from its repository root.
+The full Marmousi models are stored in the file RobustMesher.zip in the directory.
 
 Verify the installation:
 
