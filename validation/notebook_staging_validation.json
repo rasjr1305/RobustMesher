@@ -1,0 +1,408 @@
+[
+  {
+    "notebook": "Meshing2DExample.ipynb",
+    "status": "passed",
+    "validation": "Schema and code-cell syntax checked after package rename; recorded mesh runs retained without recomputation.",
+    "original_uploaded_file_sha256": "aba971ed415692780fb542f99ab94e3daaca589753bb85d426072e530a7feb66",
+    "staged_file_sha256": "5ab00b071ed9b129b5ff33e81f10f779994099cad9b2ad20a58e00df3f315c8f",
+    "companion_script": "Meshing2DExample.py",
+    "nonempty_code_cells": 6,
+    "original_input_values": {
+      "velocity_file": {
+        "expression": "Path(str(files('RobustMesher').joinpath('velocity_models', 'vp_marmousi-ii.segy')))"
+      },
+      "output_dir": {
+        "expression": "Path('output')"
+      },
+      "mesh_file": {
+        "expression": "output_dir / 'marmousi_mesh_2D.msh'"
+      },
+      "figure_file": {
+        "expression": "output_dir / 'marmousi_mesh_2D.png'"
+      },
+      "nz": 2801,
+      "nx": 13601,
+      "dz": 1.25,
+      "dx": 1.25,
+      "length_x": {
+        "expression": "(nx - 1) * dx"
+      },
+      "length_z": {
+        "expression": "(nz - 1) * dz"
+      },
+      "frequency": 15.0,
+      "cells_per_wavelength": 2.0,
+      "hmin_segy": 0.0,
+      "grade": 0.01,
+      "vp_water": 1.5,
+      "velocity_unit_scale": 1000.0,
+      "preview_stride": 8,
+      "padding_type": null,
+      "padding_x": 1500.0,
+      "padding_z": 1500.0,
+      "hyper_n": 4.0,
+      "extend_segy": true,
+      "h_padding": 1000.0,
+      "water_interface": true,
+      "water_search_value": 1.5,
+      "structured_mesh": true,
+      "unstructured_quad_mesh": false,
+      "min_element_size": 50.0,
+      "apply_winslow": true,
+      "winslow_implementation": "numba",
+      "winslow_iterations": 3000,
+      "winslow_omega": 0.1
+    },
+    "staged_input_values": {
+      "velocity_file": {
+        "expression": "Path(str(files('RobustMesher').joinpath('velocity_models', 'vp_marmousi-ii.segy')))"
+      },
+      "output_dir": {
+        "expression": "Path('output')"
+      },
+      "mesh_file": {
+        "expression": "output_dir / 'marmousi_mesh_2D.msh'"
+      },
+      "figure_file": {
+        "expression": "output_dir / 'marmousi_mesh_2D.png'"
+      },
+      "nz": 2801,
+      "nx": 13601,
+      "dz": 1.25,
+      "dx": 1.25,
+      "length_x": {
+        "expression": "(nx - 1) * dx"
+      },
+      "length_z": {
+        "expression": "(nz - 1) * dz"
+      },
+      "frequency": 15.0,
+      "cells_per_wavelength": 2.0,
+      "hmin_segy": 0.0,
+      "grade": 0.01,
+      "vp_water": 1.5,
+      "velocity_unit_scale": 1000.0,
+      "preview_stride": 8,
+      "padding_type": null,
+      "padding_x": 1500.0,
+      "padding_z": 1500.0,
+      "hyper_n": 4.0,
+      "extend_segy": true,
+      "h_padding": 1000.0,
+      "water_interface": true,
+      "water_search_value": 1.5,
+      "structured_mesh": true,
+      "unstructured_quad_mesh": false,
+      "min_element_size": 50.0,
+      "apply_winslow": true,
+      "winslow_implementation": "numba",
+      "winslow_iterations": 3000,
+      "winslow_omega": 0.1
+    },
+    "configured_inputs_preserved": true,
+    "numerical_code_AST_preserved_except_documented_display_label": true,
+    "retained_user_outputs": true,
+    "execution_counts_preserved": true,
+    "code_cell_output_comparisons": [
+      {
+        "cell": 1,
+        "execution_count": 1,
+        "output_blocks": 0,
+        "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "staged_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 3,
+        "execution_count": 2,
+        "output_blocks": 0,
+        "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "staged_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 5,
+        "execution_count": 3,
+        "output_blocks": 1,
+        "original_outputs_sha256": "3ea7ca4704b7318b9d520a19bfe2c7bfe6d93e4d86744db8a94bf084afdf3cc6",
+        "staged_outputs_sha256": "fe0d5db5386390be10b60b6a601d490033de66444bedd431420c9257c7b33cfb",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 6,
+        "execution_count": 4,
+        "output_blocks": 3,
+        "original_outputs_sha256": "e8f729a60efc10ab76fff9d5302c1ee9e741c629c1f5c2fda528603c6929637f",
+        "staged_outputs_sha256": "ffccde818eb559cb80915f73f6a760fad6b2b0b9888b268cbe7a0367e07ab6ad",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 8,
+        "execution_count": 5,
+        "output_blocks": 3,
+        "original_outputs_sha256": "518fb8618699c61c93797fe7f20dd39ff5c1a74569394e269c3c0fb0a45efbe7",
+        "staged_outputs_sha256": "b65cfa26395c910e1e42082f74e0c3caf9406d5d211b4f4dc46d5cb4d71c4490",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 10,
+        "execution_count": 6,
+        "output_blocks": 3,
+        "original_outputs_sha256": "b328efeb1f3e36da12e2d74d550060b55d52bd62710cc6d2f92f1651bd61745e",
+        "staged_outputs_sha256": "e21459b2ca877ed210a616d63771e87c05dbce8b12885ed2100b873fd016af72",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      }
+    ],
+    "documented_edits": [
+      {
+        "cell": 3,
+        "change": "Corrected iteration-count comment; configured numerical value unchanged"
+      },
+      {
+        "cell": 0,
+        "change": "Corrected configured frequency, cell size, iteration count and retained-run description in introductory prose"
+      },
+      {
+        "cells": [
+          12
+        ],
+        "change": "Removed empty trailing code cell without execution outputs"
+      },
+      {
+        "change": "Updated package imports, model resource lookups, and recorded output paths to RobustMesher; numerical inputs and results unchanged."
+      }
+    ],
+    "recorded_exported_nodes": 24966,
+    "recorded_element_type": "quad",
+    "recorded_volume_or_area_blocks": [
+      3751,
+      20801
+    ],
+    "recorded_total_elements": 24552,
+    "model_resource": "RobustMesher/velocity_models/vp_marmousi-ii.segy"
+  },
+  {
+    "notebook": "Meshing3DExample.ipynb",
+    "status": "passed",
+    "validation": "Schema and code-cell syntax checked after package rename; recorded mesh runs retained without recomputation.",
+    "original_uploaded_file_sha256": "d8763e739ad12ff75cf15d0bdb735ce9822b16309bdc1c7630c8339b5375aa5c",
+    "staged_file_sha256": "e36b7c4435a86f31d106bbb361880e9f717a3b7a59e27e8301b23f38e4138c7a",
+    "companion_script": "Meshing3DExample.py",
+    "nonempty_code_cells": 6,
+    "original_input_values": {
+      "velocity_file": {
+        "expression": "Path(str(files('RobustMesher').joinpath('velocity_models', 'marmousi_3d_water.bin')))"
+      },
+      "output_dir": {
+        "expression": "Path('output')"
+      },
+      "mesh_file": {
+        "expression": "output_dir / 'marmousi_mesh_3D.msh'"
+      },
+      "figure_file": {
+        "expression": "output_dir / 'marmousi_mesh_3D.png'"
+      },
+      "nz": 876,
+      "nx": 2301,
+      "ny": 17,
+      "dz": 4.0,
+      "dx": 4.0,
+      "dy": 250.0,
+      "length_x": {
+        "expression": "(nx - 1) * dx"
+      },
+      "length_y": {
+        "expression": "(ny - 1) * dy"
+      },
+      "length_z": {
+        "expression": "(nz - 1) * dz"
+      },
+      "byte_order": "big",
+      "axes_order": [
+        0,
+        1,
+        2
+      ],
+      "axes_order_sort": "F",
+      "binary_dtype": "float32",
+      "frequency": 1.0,
+      "cells_per_wavelength": 2.0,
+      "hmin_segy": 0.0,
+      "grade": 0.05,
+      "vp_water": 1500.0,
+      "padding_type": null,
+      "padding_x": 1000.0,
+      "padding_y": 1000.0,
+      "padding_z": 1000.0,
+      "hyper_n": 4.0,
+      "extend_segy": true,
+      "h_padding": 1000.0,
+      "water_interface": true,
+      "water_search_value": 1500.0,
+      "added_water_depth": 500.0,
+      "structured_mesh": true,
+      "min_element_size": 50.0,
+      "apply_winslow": true,
+      "winslow_implementation": "numba",
+      "winslow_iterations": 500,
+      "winslow_omega": 0.1,
+      "gmsh_parallel": false,
+      "gmsh_num_threads": 1,
+      "expected_bytes": {
+        "expression": "nz * nx * ny * np.dtype(binary_dtype).itemsize"
+      },
+      "actual_bytes": {
+        "expression": "velocity_file.stat().st_size"
+      }
+    },
+    "staged_input_values": {
+      "velocity_file": {
+        "expression": "Path(str(files('RobustMesher').joinpath('velocity_models', 'marmousi_3d_water.bin')))"
+      },
+      "output_dir": {
+        "expression": "Path('output')"
+      },
+      "mesh_file": {
+        "expression": "output_dir / 'marmousi_mesh_3D.msh'"
+      },
+      "figure_file": {
+        "expression": "output_dir / 'marmousi_mesh_3D.png'"
+      },
+      "nz": 876,
+      "nx": 2301,
+      "ny": 17,
+      "dz": 4.0,
+      "dx": 4.0,
+      "dy": 250.0,
+      "length_x": {
+        "expression": "(nx - 1) * dx"
+      },
+      "length_y": {
+        "expression": "(ny - 1) * dy"
+      },
+      "length_z": {
+        "expression": "(nz - 1) * dz"
+      },
+      "byte_order": "big",
+      "axes_order": [
+        0,
+        1,
+        2
+      ],
+      "axes_order_sort": "F",
+      "binary_dtype": "float32",
+      "frequency": 1.0,
+      "cells_per_wavelength": 2.0,
+      "hmin_segy": 0.0,
+      "grade": 0.05,
+      "vp_water": 1500.0,
+      "padding_type": null,
+      "padding_x": 1000.0,
+      "padding_y": 1000.0,
+      "padding_z": 1000.0,
+      "hyper_n": 4.0,
+      "extend_segy": true,
+      "h_padding": 1000.0,
+      "water_interface": true,
+      "water_search_value": 1500.0,
+      "added_water_depth": 500.0,
+      "structured_mesh": true,
+      "min_element_size": 50.0,
+      "apply_winslow": true,
+      "winslow_implementation": "numba",
+      "winslow_iterations": 500,
+      "winslow_omega": 0.1,
+      "gmsh_parallel": false,
+      "gmsh_num_threads": 1,
+      "expected_bytes": {
+        "expression": "nz * nx * ny * np.dtype(binary_dtype).itemsize"
+      },
+      "actual_bytes": {
+        "expression": "velocity_file.stat().st_size"
+      }
+    },
+    "configured_inputs_preserved": true,
+    "numerical_code_AST_preserved_except_documented_display_label": true,
+    "retained_user_outputs": true,
+    "execution_counts_preserved": true,
+    "code_cell_output_comparisons": [
+      {
+        "cell": 1,
+        "execution_count": 1,
+        "output_blocks": 0,
+        "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "staged_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 3,
+        "execution_count": 2,
+        "output_blocks": 1,
+        "original_outputs_sha256": "785f56799adad39194d6888c6928adbbe07bca35252162d319a97590413ada7b",
+        "staged_outputs_sha256": "be898db164c164411e85b0ef987ab1da523695889172d53046fa49679d7b5837",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 5,
+        "execution_count": 3,
+        "output_blocks": 1,
+        "original_outputs_sha256": "f8eff4a10e78df4d7c8ec90cafaf3e44371b3eeec767ad0527a4f6369fd520c6",
+        "staged_outputs_sha256": "70f9d8c80be77cfceee991a332f4c1ea70484aac02520089db695eaaa160a4ad",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 6,
+        "execution_count": 4,
+        "output_blocks": 2,
+        "original_outputs_sha256": "c603bc197ded46c3aa2bb32871ef3e20d22df33b4896b2736ce7ff9765e61af1",
+        "staged_outputs_sha256": "cdee88a4440dc8ec54aa93e4a8facf52678c423371c21ffc08f9ac982f018439",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 8,
+        "execution_count": 5,
+        "output_blocks": 3,
+        "original_outputs_sha256": "617eec21c9f72d9a00dbd8eff956fce8bb31ee9d18cd2212d8740d6edd84ce61",
+        "staged_outputs_sha256": "23f340219e9b8b288076cb8ede934060dff91a4e6377b3d62451d7ed934fc4e3",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      },
+      {
+        "cell": 10,
+        "execution_count": 6,
+        "output_blocks": 3,
+        "original_outputs_sha256": "3505c4fa1757bcab2fc43068f34831ef6e8796f059c54a089470d30cb5360660",
+        "staged_outputs_sha256": "cab232bbc7c3efa705f4b367264001a70ff65c127c79f0db1216ddf35c410754",
+        "preserved": "Numerical output retained; package path spelling updated where present."
+      }
+    ],
+    "documented_edits": [
+      {
+        "cell": 3,
+        "change": "Corrected iteration-count comment; configured numerical value unchanged"
+      },
+      {
+        "cell": 3,
+        "change": "Documented native z/x/y Savitzky-Golay grading"
+      },
+      {
+        "cell": 5,
+        "change": "Removed external-package reference from unavailable-maximum label; recorded numeric output unaffected"
+      },
+      {
+        "cell": 0,
+        "change": "Corrected configured frequency, cell size, iteration count and retained-run description in introductory prose"
+      },
+      {
+        "change": "Updated package imports, model resource lookups, and recorded output paths to RobustMesher; numerical inputs and results unchanged."
+      }
+    ],
+    "recorded_exported_nodes": 1113396,
+    "recorded_element_type": "hexahedron",
+    "recorded_volume_or_area_blocks": [
+      914085,
+      164835
+    ],
+    "recorded_total_elements": 1078920,
+    "model_resource": "RobustMesher/velocity_models/marmousi_3d_water.bin"
+  }
+]

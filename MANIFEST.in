@@ -1,0 +1,8 @@
+include README.md LICENSE COPYING requirements*.txt
+include Meshing2DExample.ipynb Meshing3DExample.ipynb
+include Meshing2DExample.py Meshing3DExample.py
+recursive-include RobustMesher/velocity_models *.segy *.bin *.json
+recursive-include docs/images *.png
+recursive-include tests *.py
+recursive-include provenance *.json *.log *.xml
+recursive-include validation *.json

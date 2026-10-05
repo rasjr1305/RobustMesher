@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "test": "Direct AutomaticMesh worker executed from tests/ within the package folder",
+  "positive_minimum_gauss2_jacobian": 180545.59195245642,
+  "volume_elements": 472,
+  "seismicmesh_import_attempts": [],
+  "validation_stage": "Historical check before the current package rename; paths were updated to the current package spelling."
+}

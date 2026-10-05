@@ -1,0 +1,29 @@
+{
+  "result": "passed",
+  "tests": 45,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 3.267,
+  "python_version": "3.12.14",
+  "test_file": "tests/test_sizing3d.py",
+  "checks": [
+    "Wavelength sizing and z/x/y orientation with grade=None or 0",
+    "Big/little endian, axis permutations, C/F ordering, float32/float64",
+    "Extruded 3D slice parity with the original 2D Savitzky\u2013Golay filter",
+    "Third-axis smoothing and independent short-axis skips, including ny=1",
+    "90% odd-window guard",
+    "Rectangular and hyperelliptical edge padding before smoothing",
+    "Actual tuple extrema and original model dimensions",
+    "Positive and negative undershoot correction, with hmin enforced after filtering",
+    "Water substitution and scalar/batch edge extension",
+    "Invalid grade, bounds, wavelength controls, floors, values, and queries",
+    "Import and field creation with SeismicMesh imports actively blocked"
+  ],
+  "tuple_consumer_audit": {
+    "AutomaticMesh": "Consumes the six-item tuple using its field and original model dimensions; the extrema are not consumed elsewhere in the 3D method.",
+    "generation_binding": "Passes the prepared six-item tuple unchanged.",
+    "hmax_compatibility": "Returning an actual numeric maximum is compatible with the previous optional None value; mesh generation does not consume it."
+  },
+  "validation_stage": "Historical check before the current package rename; paths were updated to the current package spelling."
+}

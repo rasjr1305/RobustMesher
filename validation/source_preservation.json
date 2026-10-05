@@ -1,0 +1,189 @@
+{
+  "original_archive": "Standalone source archive before native dependency removal",
+  "create_sizing_function3D_signature_unchanged": true,
+  "sizing2d_bytes_unchanged": true,
+  "seismicmesh_imports_in_runtime_source": 0,
+  "existing_source_files": [
+    {
+      "file": "generation_utils/__init__.py",
+      "unchanged": true,
+      "before_sha256": "aefd2397aee812e48dd6780e3c2f4636cd697b75b624577d7ff9ef604aff0dc0",
+      "after_sha256": "aefd2397aee812e48dd6780e3c2f4636cd697b75b624577d7ff9ef604aff0dc0"
+    },
+    {
+      "file": "generation_utils/legacy.py",
+      "unchanged": true,
+      "before_sha256": "61b10e42efe21b045bd7ac2ecb3b16669048a5d39a40a17e8bc3945f57d1f389",
+      "after_sha256": "61b10e42efe21b045bd7ac2ecb3b16669048a5d39a40a17e8bc3945f57d1f389"
+    },
+    {
+      "file": "generation_utils/parameters.py",
+      "unchanged": false,
+      "before_sha256": "dfd799baddc88da04693f95b94d9c997a919a35ce0bb8df71ce73af56094b322",
+      "after_sha256": "b81c2d9073c94d5f6a569db74689fab69275f4dbe8214b9b424daa15b81582d4"
+    },
+    {
+      "file": "generation_utils/gmsh2d.py",
+      "unchanged": true,
+      "before_sha256": "7b51ef30743c2eaff39d582cb8ef9c9b5a403d879ef238b41d17a90926025dae",
+      "after_sha256": "7b51ef30743c2eaff39d582cb8ef9c9b5a403d879ef238b41d17a90926025dae"
+    },
+    {
+      "file": "generation_utils/support.py",
+      "unchanged": true,
+      "before_sha256": "64bf54c5665e7a24260f1533fac6b94088455725888cb8351e1731a83f02a527",
+      "after_sha256": "64bf54c5665e7a24260f1533fac6b94088455725888cb8351e1731a83f02a527"
+    },
+    {
+      "file": "generation_utils/automatic_mesh.py",
+      "unchanged": false,
+      "before_sha256": "fab3fe38f76c439bfe3ce793e13ad364dec5b5be060f59c80a9f5f5df6a6d650",
+      "after_sha256": "b900b0df09c329337bd6e5845248294c15b0c6f3e0663d63977b7fd1c17fec5f"
+    },
+    {
+      "file": "generation_utils/gmsh3d.py",
+      "unchanged": true,
+      "before_sha256": "a75b4334cff7f5201947a5729d329519dd7e746fd4a86568212abc84a14839ad",
+      "after_sha256": "a75b4334cff7f5201947a5729d329519dd7e746fd4a86568212abc84a14839ad"
+    },
+    {
+      "file": "generation_utils/bindings.py",
+      "unchanged": true,
+      "before_sha256": "f0cbcd4d87956980f925aeb7492e702a995ad8e3743463dee04609f12061dc03",
+      "after_sha256": "f0cbcd4d87956980f925aeb7492e702a995ad8e3743463dee04609f12061dc03"
+    },
+    {
+      "file": "generation_utils/validation.py",
+      "unchanged": true,
+      "before_sha256": "f6331d7837d084e5e1fbfb5705a990ab61b72aa7689efeb67548419b1dfdfc97",
+      "after_sha256": "f6331d7837d084e5e1fbfb5705a990ab61b72aa7689efeb67548419b1dfdfc97"
+    },
+    {
+      "file": "geometry_utils/__init__.py",
+      "unchanged": true,
+      "before_sha256": "5f3e2729951e2246caf25a845da73e8edd275c746485ffb0ae47cb0394c87542",
+      "after_sha256": "5f3e2729951e2246caf25a845da73e8edd275c746485ffb0ae47cb0394c87542"
+    },
+    {
+      "file": "geometry_utils/geometry2d.py",
+      "unchanged": true,
+      "before_sha256": "a01c7f367aa5788186c8203a694e27a418d5b1852b45a3fad99267bf0ffbcac0",
+      "after_sha256": "a01c7f367aa5788186c8203a694e27a418d5b1852b45a3fad99267bf0ffbcac0"
+    },
+    {
+      "file": "geometry_utils/geometry3d.py",
+      "unchanged": true,
+      "before_sha256": "14e6bf8c0fdf6e58755e7345afb03f65986b6b0b4c1ec9462ef47c91ca98774e",
+      "after_sha256": "14e6bf8c0fdf6e58755e7345afb03f65986b6b0b4c1ec9462ef47c91ca98774e"
+    },
+    {
+      "file": "geometry_utils/gmsh3d_helpers.py",
+      "unchanged": true,
+      "before_sha256": "c8851d6f6158d0ed9a81f60bf002650da9cba70dfc3790664ce9e5d040f61979",
+      "after_sha256": "c8851d6f6158d0ed9a81f60bf002650da9cba70dfc3790664ce9e5d040f61979"
+    },
+    {
+      "file": "Io_utils/__init__.py",
+      "unchanged": true,
+      "before_sha256": "b11f9ed3dec3b90e30114cd816af680992c6f3ceb12dcc7ece38e42732b98ec4",
+      "after_sha256": "b11f9ed3dec3b90e30114cd816af680992c6f3ceb12dcc7ece38e42732b98ec4"
+    },
+    {
+      "file": "Io_utils/meshing_readers.py",
+      "unchanged": true,
+      "before_sha256": "c479a1f5108b173ae66961a54267d9d90c3f08644dd00ba9916ca3879e83d2c2",
+      "after_sha256": "c479a1f5108b173ae66961a54267d9d90c3f08644dd00ba9916ca3879e83d2c2"
+    },
+    {
+      "file": "Io_utils/export_adapters.py",
+      "unchanged": true,
+      "before_sha256": "45971ca71b7ee4a3888b0929293c749e4fccbf7d479ce3f93838ca59841c23ac",
+      "after_sha256": "45971ca71b7ee4a3888b0929293c749e4fccbf7d479ce3f93838ca59841c23ac"
+    },
+    {
+      "file": "Io_utils/segy_io.py",
+      "unchanged": true,
+      "before_sha256": "a2d223e5dbac4d8c063a66057e91744ffc5fb5a0f4848b9ac4fb21223f8a1cc5",
+      "after_sha256": "a2d223e5dbac4d8c063a66057e91744ffc5fb5a0f4848b9ac4fb21223f8a1cc5"
+    },
+    {
+      "file": "Io_utils/binary_io.py",
+      "unchanged": true,
+      "before_sha256": "75791567c029d4d6633a55ce09dc1a91374d7bb167502e1055a68567d73e63c6",
+      "after_sha256": "75791567c029d4d6633a55ce09dc1a91374d7bb167502e1055a68567d73e63c6"
+    },
+    {
+      "file": "plotting_utils/__init__.py",
+      "unchanged": true,
+      "before_sha256": "9d50fca051f8e6b40484eb8d71fdd6cf3ef235f2833ea5f00912f5d23337f027",
+      "after_sha256": "9d50fca051f8e6b40484eb8d71fdd6cf3ef235f2833ea5f00912f5d23337f027"
+    },
+    {
+      "file": "plotting_utils/plotting.py",
+      "unchanged": true,
+      "before_sha256": "9a8364236ae8c93f5be6565a937e493b232a47b878a62f2d29041f7078d85f80",
+      "after_sha256": "9a8364236ae8c93f5be6565a937e493b232a47b878a62f2d29041f7078d85f80"
+    },
+    {
+      "file": "sizing_utils/__init__.py",
+      "unchanged": false,
+      "before_sha256": "bfba4ca9e2fef55ae0829cf0b1044bcf9b684437fdc3006fcdd7747b2b91ab9c",
+      "after_sha256": "7ba44f7963c59dabdbfb827d5f503a0866d321a38bfb6adf86fb3c35d914dcfd"
+    },
+    {
+      "file": "sizing_utils/sizing2d.py",
+      "unchanged": true,
+      "before_sha256": "71be22b384f7d3af5fedaf7fe02d7bd22e96cc71b39472af3a948fc5b1589332",
+      "after_sha256": "71be22b384f7d3af5fedaf7fe02d7bd22e96cc71b39472af3a948fc5b1589332"
+    },
+    {
+      "file": "sizing_utils/sizing3d.py",
+      "unchanged": false,
+      "before_sha256": "f8cebf090c09fd6c1866251e0ab9cf146e802e320f9b33348cb1d257f8f1e1ef",
+      "after_sha256": "8541ce3ee5f8c478ea0ce1ef7bb663f6940cd478bceac0a3467931441cc87808"
+    },
+    {
+      "file": "__init__.py",
+      "unchanged": true,
+      "before_sha256": "e9fdd3720f6512b50e0f3fedb695fc00c527e56d3f32167700fd462f2df2a3c2",
+      "after_sha256": "e9fdd3720f6512b50e0f3fedb695fc00c527e56d3f32167700fd462f2df2a3c2"
+    },
+    {
+      "file": "api.py",
+      "unchanged": true,
+      "before_sha256": "efd290c33478a515f03ec09d15a2a57f0476b241e393cd19dda0e51a58da30bc",
+      "after_sha256": "efd290c33478a515f03ec09d15a2a57f0476b241e393cd19dda0e51a58da30bc"
+    },
+    {
+      "file": "adaptation_utils/__init__.py",
+      "unchanged": true,
+      "before_sha256": "1e883f7bcd00c29be6c715bedbf0afeb72b00cf788b7d8ee3be98961d0d40165",
+      "after_sha256": "1e883f7bcd00c29be6c715bedbf0afeb72b00cf788b7d8ee3be98961d0d40165"
+    },
+    {
+      "file": "adaptation_utils/winslow3d.py",
+      "unchanged": true,
+      "before_sha256": "0faed61322891377aa762248540752fa122d5dea3e66bfb168b39489b969fbc9",
+      "after_sha256": "0faed61322891377aa762248540752fa122d5dea3e66bfb168b39489b969fbc9"
+    },
+    {
+      "file": "adaptation_utils/structured3d.py",
+      "unchanged": true,
+      "before_sha256": "d466443ca2124408a4aff968efc7c8d6fb0d898c71128e717db4b969d59135bc",
+      "after_sha256": "d466443ca2124408a4aff968efc7c8d6fb0d898c71128e717db4b969d59135bc"
+    },
+    {
+      "file": "adaptation_utils/winslow2d.py",
+      "unchanged": true,
+      "before_sha256": "66de16cb11b89d55d2e48b442a390f9630e44de91dd40e357c97619f49dab459",
+      "after_sha256": "66de16cb11b89d55d2e48b442a390f9630e44de91dd40e357c97619f49dab459"
+    },
+    {
+      "file": "adaptation_utils/structured2d.py",
+      "unchanged": true,
+      "before_sha256": "4e798a51fd2c9d5d94dc0a266069622285e8f389f49c6834ae42e51c0246f3fc",
+      "after_sha256": "4e798a51fd2c9d5d94dc0a266069622285e8f389f49c6834ae42e51c0246f3fc"
+    }
+  ],
+  "validation_stage": "Historical source-preservation check before the current package rename; paths were updated to the current package spelling."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "case": "tetra_none",
+    "status": "passed",
+    "mesh_type": "tetra",
+    "padding_type": null,
+    "water_interface": true,
+    "direct_automatic_mesh": false,
+    "grade": 0.6,
+    "smoothing_maximum_change_metres": 15.091847280904346,
+    "sizing_minimum_metres": 75.0,
+    "sizing_maximum_metres": 128.58958117758849,
+    "original_sample_counts": [
+      9,
+      11,
+      7
+    ],
+    "winslow_iterations": 0,
+    "nodes": 194,
+    "volume_elements": 538,
+    "physical_volume_element_counts": {
+      "Subsurface": 297,
+      "Water": 241
+    },
+    "minimum_gauss2_jacobian": 93893.24193368772,
+    "mesh_coordinate_minimum_zxy": [
+      -5.684341886080801e-14,
+      0.0,
+      0.0
+    ],
+    "mesh_coordinate_maximum_zxy": [
+      400.0,
+      600.0,
+      300.0
+    ],
+    "seismicmesh_import_attempts": [],
+    "spyro_imported": false,
+    "firedrake_imported": false,
+    "seconds": 6.05
+  },
+  {
+    "case": "tetra_rectangular",
+    "status": "passed",
+    "mesh_type": "tetra",
+    "padding_type": "rectangular",
+    "water_interface": true,
+    "direct_automatic_mesh": false,
+    "grade": 0.6,
+    "smoothing_maximum_change_metres": 20.23573606375163,
+    "sizing_minimum_metres": 77.0247528115895,
+    "sizing_maximum_metres": 127.58754109531563,
+    "original_sample_counts": [
+      9,
+      11,
+      7
+    ],
+    "winslow_iterations": 0,
+    "nodes": 718,
+    "volume_elements": 2824,
+    "physical_volume_element_counts": {
+      "Subsurface": 339,
+      "Water": 239,
+      "Padding": 2246,
+      "Water_with_padding": 982,
+      "Subsurface_with_padding": 1842
+    },
+    "minimum_gauss2_jacobian": 22592.6825749336,
+    "mesh_coordinate_minimum_zxy": [
+      -500.0,
+      0.0,
+      -5.684341886080801e-14
+    ],
+    "mesh_coordinate_maximum_zxy": [
+      0.0,
+      840.0,
+      460.0
+    ],
+    "seismicmesh_import_attempts": [],
+    "spyro_imported": false,
+    "firedrake_imported": false,
+    "seconds": 11.755
+  },
+  {
+    "case": "tetra_hyperelliptical",
+    "status": "passed",
+    "mesh_type": "tetra",
+    "padding_type": "hyperelliptical",
+    "water_interface": true,
+    "direct_automatic_mesh": false,
+    "grade": 0.6,
+    "smoothing_maximum_change_metres": 20.23573606375163,
+    "sizing_minimum_metres": 77.0247528115895,
+    "sizing_maximum_metres": 127.58754109531563,
+    "original_sample_counts": [
+      9,
+      11,
+      7
+    ],
+    "winslow_iterations": 0,
+    "nodes": 376,
+    "volume_elements": 1411,
+    "physical_volume_element_counts": {
+      "Subsurface": 310,
+      "Water": 236,
+      "Padding": 865
+    },
+    "minimum_gauss2_jacobian": 138859.14308150284,
+    "mesh_coordinate_minimum_zxy": [
+      -500.0,
+      0.113579248130236,
+      0.3043842764591318
+    ],
+    "mesh_coordinate_maximum_zxy": [
+      9.769962616701378e-15,
+      839.1101971727878,
+      459.6097947786557
+    ],
+    "seismicmesh_import_attempts": [],
+    "spyro_imported": false,
+    "firedrake_imported": false,
+    "seconds": 13.928
+  },
+  {
+    "case": "hex_none_winslow",
+    "status": "passed",
+    "mesh_type": "hexahedron",
+    "padding_type": null,
+    "water_interface": true,
+    "direct_automatic_mesh": false,
+    "grade": 0.6,
+    "smoothing_maximum_change_metres": 15.091847280904346,
+    "sizing_minimum_metres": 75.0,
+    "sizing_maximum_metres": 128.58958117758849,
+    "original_sample_counts": [
+      9,
+      11,
+      7
+    ],
+    "winslow_iterations": 3,
+    "nodes": 160,
+    "volume_elements": 84,
+    "physical_volume_element_counts": {
+      "Subsurface": 63,
+      "Water": 21
+    },
+    "minimum_gauss2_jacobian": 103469.83926668175,
+    "mesh_coordinate_minimum_zxy": [
+      -5.684341886080801e-14,
+      0.0,
+      0.0
+    ],
+    "mesh_coordinate_maximum_zxy": [
+      400.0,
+      600.0,
+      300.0
+    ],
+    "seismicmesh_import_attempts": [],
+    "spyro_imported": false,
+    "firedrake_imported": false,
+    "seconds": 12.431
+  },
+  {
+    "case": "hex_rectangular_winslow",
+    "status": "passed",
+    "mesh_type": "hexahedron",
+    "padding_type": "rectangular",
+    "water_interface": true,
+    "direct_automatic_mesh": false,
+    "grade": 0.6,
+    "smoothing_maximum_change_metres": 20.23573606375163,
+    "sizing_minimum_metres": 77.0247528115895,
+    "sizing_maximum_metres": 127.58754109531563,
+    "original_sample_counts": [
+      9,
+      11,
+      7
+    ],
+    "winslow_iterations": 3,
+    "nodes": 504,
+    "volume_elements": 325,
+    "physical_volume_element_counts": {
+      "Subsurface": 63,
+      "Water": 21,
+      "Padding": 241,
+      "Water_with_padding": 65,
+      "Subsurface_with_padding": 260
+    },
+    "minimum_gauss2_jacobian": 39968.4934030422,
+    "mesh_coordinate_minimum_zxy": [
+      -500.0,
+      0.0,
+      0.0
+    ],
+    "mesh_coordinate_maximum_zxy": [
+      0.0,
+      840.0,
+      460.0
+    ],
+    "seismicmesh_import_attempts": [],
+    "spyro_imported": false,
+    "firedrake_imported": false,
+    "seconds": 2.74
+  },
+  {
+    "case": "direct_automatic_tetra",
+    "status": "passed",
+    "mesh_type": "tetra",
+    "padding_type": null,
+    "water_interface": false,
+    "direct_automatic_mesh": true,
+    "grade": 0.6,
+    "smoothing_maximum_change_metres": 15.091847280904346,
+    "sizing_minimum_metres": 75.0,
+    "sizing_maximum_metres": 128.58958117758849,
+    "original_sample_counts": [
+      9,
+      11,
+      7
+    ],
+    "winslow_iterations": 0,
+    "nodes": 180,
+    "volume_elements": 472,
+    "physical_volume_element_counts": {
+      "SubsurfaceAndWater": 472
+    },
+    "minimum_gauss2_jacobian": 180545.59195245642,
+    "mesh_coordinate_minimum_zxy": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mesh_coordinate_maximum_zxy": [
+      400.0,
+      600.0,
+      300.0
+    ],
+    "seismicmesh_import_attempts": [],
+    "spyro_imported": false,
+    "firedrake_imported": false,
+    "seconds": 2.761
+  }
+]

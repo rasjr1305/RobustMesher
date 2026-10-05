@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "included_files": {
+    "marmousi.segy": {
+      "size_bytes": 7468044,
+      "sha256": "0e64da77b5624577a00e5b3b1ce2a9d2640797b35121daf1a056d69149490345"
+    },
+    "marmousi_3d_water.bin": {
+      "size_bytes": 137065968,
+      "sha256": "1b854809811881ccb7539f5237611054e17c8cf8426a213312e4d828541a32d9"
+    },
+    "vp_marmousi-ii.segy": {
+      "size_bytes": 155653444,
+      "sha256": "2722a5de0645d8fcf5750f380893d4875383af9b24988ece0bd07b943f5b0c91"
+    }
+  },
+  "model_2d": {
+    "filename": "vp_marmousi-ii.segy",
+    "shape_zx": [
+      2801,
+      13601
+    ],
+    "spacing_zx_m": [
+      1.25,
+      1.25
+    ],
+    "domain_x_depth_m": [
+      17000.0,
+      3500.0
+    ],
+    "stored_velocity_units": "km/s",
+    "velocity_scale_to_m_s": 1000.0,
+    "water_search_value_native": 1.5,
+    "water_search_value_m_s": 1500.0,
+    "velocity_range_native": [
+      1.0279998779296875,
+      4.699999809265137
+    ],
+    "first_nonwater_depth_m": 451.25,
+    "interpretation_sources": [
+      "https://github.com/pysit/pysit/blob/master/pysit/gallery/marmousi2.py",
+      "https://pysit.readthedocs.io/en/latest/api/pysit.gallery.MarmousiModel2.html"
+    ],
+    "notes": [
+      "Original supplied file bytes are preserved.",
+      "SEG-Y sample interval is not interpreted as spatial depth spacing.",
+      "The example scales only the sizing callable and min/max sizes by 1000; native water detection stays at 1.5.",
+      "Plot-only decimation leaves complete model sampling intact during sizing and geometry construction."
+    ]
+  },
+  "model_3d": {
+    "filename": "marmousi_3d_water.bin",
+    "shape_zxy": [
+      876,
+      2301,
+      17
+    ],
+    "spacing_zxy_m": [
+      4.0,
+      4.0,
+      250.0
+    ],
+    "domain_x_y_depth_m": [
+      9200.0,
+      4000.0,
+      3500.0
+    ],
+    "water_search_value_m_s": 1500.0,
+    "stored_velocity_units": "m/s"
+  },
+  "reference_original_2d": {
+    "filename": "marmousi.segy",
+    "shape_zx": [
+      751,
+      2301
+    ],
+    "spacing_zx_m": [
+      4.0,
+      4.0
+    ],
+    "domain_x_depth_m": [
+      9200.0,
+      3000.0
+    ],
+    "water_search_value_m_s": 1500.0,
+    "stored_velocity_units": "m/s",
+    "purpose": "Retained original source of the 3D binary extrusion; not used by the current 2D notebook."
+  },
+  "original_3d_construction_validation": {
+    "binary_filename": "marmousi_3d_water.bin",
+    "binary_byte_count": 137065968,
+    "binary_dtype": "float32",
+    "binary_byte_order": "big",
+    "binary_memory_order": "F",
+    "binary_axes_order": [
+      0,
+      1,
+      2
+    ],
+    "binary_canonical_axes": [
+      "z",
+      "x",
+      "y"
+    ],
+    "binary_shape": [
+      876,
+      2301,
+      17
+    ],
+    "binary_value_count": 34266492,
+    "velocity_units_inferred": "m/s",
+    "velocity_min": 1500.0,
+    "velocity_max": 5500.0,
+    "all_values_finite": true,
+    "added_constant_water_samples": 125,
+    "added_water_velocity": 1500.0,
+    "original_segy_shape": [
+      751,
+      2301
+    ],
+    "every_extruded_y_plane_identical": true,
+    "binary_slice_below_added_water_equals_raw_segy_exactly": true,
+    "maximum_absolute_sample_difference": 0.0,
+    "segy_source_x_first": 0,
+    "segy_source_x_last": 9200,
+    "segy_source_x_unique_spacings": [
+      4
+    ],
+    "segy_sample_first": 0.0,
+    "segy_sample_last": 3000.0,
+    "segy_sample_spacing": 4.0,
+    "physical_length_x_from_segy_coordinate_headers": 9200.0,
+    "physical_dz_from_model_sample_interpretation": 4.0,
+    "physical_length_z_from_model_sample_interpretation": 3500.0,
+    "physical_added_water_thickness_from_dz": 500.0,
+    "ny_from_raw_repetition": 17,
+    "length_y_from_prior_user_choice_not_binary_metadata": 4000.0,
+    "dy_if_length_y_is_4000": 250.0,
+    "first_nonwater_samples_2d_min_max": [
+      7,
+      11
+    ],
+    "first_nonwater_samples_3d_min_max": [
+      132,
+      136
+    ],
+    "first_nonwater_depth_3d_min_max_m": [
+      528.0,
+      544.0
+    ],
+    "recommended_water_search_value": 1500.0,
+    "notes": [
+      "Raw binary contains no embedded dimensions, physical lengths, units, axis labels, or y spacing. Shape/order are proved by exact model comparison and repeated y slabs.",
+      "The SEG-Y already includes a variable shallow layer of 1500 m/s. Added 125 water rows plus original top water rows yields first nonwater at 528 m to 544 m with 4 m depth sampling.",
+      "The originally requested 4 km y extent implies 17 samples at 250 m intervals; this extent cannot be proved from raw bytes alone."
+    ],
+    "velocity_units": "m/s"
+  }
+}

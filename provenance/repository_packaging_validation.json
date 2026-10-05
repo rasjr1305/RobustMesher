@@ -1,0 +1,269 @@
+{
+  "passed": true,
+  "scope": "Current package rename, wheel packaging, notebooks, README links, and installed native sizing smoke. Full Marmousi examples were not rerun.",
+  "project_name": "RobustMesher",
+  "distribution_name": "robustmesher",
+  "import_name": "RobustMesher",
+  "old_standalone_name_references": 0,
+  "old_standalone_name_paths": 0,
+  "packaging_resource_declarations_match_current_package": true,
+  "python_module_count": 30,
+  "module_source_checks": [
+    {
+      "file": "RobustMesher/api.py",
+      "sha256": "efd290c33478a515f03ec09d15a2a57f0476b241e393cd19dda0e51a58da30bc",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/__init__.py",
+      "sha256": "e9fdd3720f6512b50e0f3fedb695fc00c527e56d3f32167700fd462f2df2a3c2",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/plotting_utils/plotting.py",
+      "sha256": "9a8364236ae8c93f5be6565a937e493b232a47b878a62f2d29041f7078d85f80",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/plotting_utils/__init__.py",
+      "sha256": "9d50fca051f8e6b40484eb8d71fdd6cf3ef235f2833ea5f00912f5d23337f027",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/geometry_utils/geometry2d.py",
+      "sha256": "a01c7f367aa5788186c8203a694e27a418d5b1852b45a3fad99267bf0ffbcac0",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/geometry_utils/geometry3d.py",
+      "sha256": "14e6bf8c0fdf6e58755e7345afb03f65986b6b0b4c1ec9462ef47c91ca98774e",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/geometry_utils/__init__.py",
+      "sha256": "5f3e2729951e2246caf25a845da73e8edd275c746485ffb0ae47cb0394c87542",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/geometry_utils/gmsh3d_helpers.py",
+      "sha256": "c8851d6f6158d0ed9a81f60bf002650da9cba70dfc3790664ce9e5d040f61979",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/bindings.py",
+      "sha256": "1c1dd29f395e8c9a8cfbf3c26c729d70c4f16f6e3bfab3caa471595c2b83a23f",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/validation.py",
+      "sha256": "f6331d7837d084e5e1fbfb5705a990ab61b72aa7689efeb67548419b1dfdfc97",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/legacy.py",
+      "sha256": "61b10e42efe21b045bd7ac2ecb3b16669048a5d39a40a17e8bc3945f57d1f389",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/gmsh2d.py",
+      "sha256": "7b51ef30743c2eaff39d582cb8ef9c9b5a403d879ef238b41d17a90926025dae",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/support.py",
+      "sha256": "64bf54c5665e7a24260f1533fac6b94088455725888cb8351e1731a83f02a527",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/__init__.py",
+      "sha256": "aefd2397aee812e48dd6780e3c2f4636cd697b75b624577d7ff9ef604aff0dc0",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/parameters.py",
+      "sha256": "a350fd7309ae765d349607626d9e2ac5a7efa9187c2432667138e00eb9e1ba67",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/automatic_mesh.py",
+      "sha256": "b900b0df09c329337bd6e5845248294c15b0c6f3e0663d63977b7fd1c17fec5f",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/generation_utils/gmsh3d.py",
+      "sha256": "a75b4334cff7f5201947a5729d329519dd7e746fd4a86568212abc84a14839ad",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/adaptation_utils/winslow2d.py",
+      "sha256": "66de16cb11b89d55d2e48b442a390f9630e44de91dd40e357c97619f49dab459",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/adaptation_utils/__init__.py",
+      "sha256": "1e883f7bcd00c29be6c715bedbf0afeb72b00cf788b7d8ee3be98961d0d40165",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/adaptation_utils/structured2d.py",
+      "sha256": "4e798a51fd2c9d5d94dc0a266069622285e8f389f49c6834ae42e51c0246f3fc",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/adaptation_utils/winslow3d.py",
+      "sha256": "0faed61322891377aa762248540752fa122d5dea3e66bfb168b39489b969fbc9",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/adaptation_utils/structured3d.py",
+      "sha256": "d466443ca2124408a4aff968efc7c8d6fb0d898c71128e717db4b969d59135bc",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/Io_utils/meshing_readers.py",
+      "sha256": "c479a1f5108b173ae66961a54267d9d90c3f08644dd00ba9916ca3879e83d2c2",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/Io_utils/export_adapters.py",
+      "sha256": "45971ca71b7ee4a3888b0929293c749e4fccbf7d479ce3f93838ca59841c23ac",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/Io_utils/__init__.py",
+      "sha256": "b11f9ed3dec3b90e30114cd816af680992c6f3ceb12dcc7ece38e42732b98ec4",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/Io_utils/segy_io.py",
+      "sha256": "a2d223e5dbac4d8c063a66057e91744ffc5fb5a0f4848b9ac4fb21223f8a1cc5",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/Io_utils/binary_io.py",
+      "sha256": "75791567c029d4d6633a55ce09dc1a91374d7bb167502e1055a68567d73e63c6",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/sizing_utils/__init__.py",
+      "sha256": "7ba44f7963c59dabdbfb827d5f503a0866d321a38bfb6adf86fb3c35d914dcfd",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/sizing_utils/sizing2d.py",
+      "sha256": "71be22b384f7d3af5fedaf7fe02d7bd22e96cc71b39472af3a948fc5b1589332",
+      "contains_only_expected_name_substitutions": true
+    },
+    {
+      "file": "RobustMesher/sizing_utils/sizing3d.py",
+      "sha256": "8541ce3ee5f8c478ea0ce1ef7bb663f6940cd478bceac0a3467931441cc87808",
+      "contains_only_expected_name_substitutions": true
+    }
+  ],
+  "all_python_module_algorithms_preserved": true,
+  "notebooks": [
+    {
+      "file": "Meshing2DExample.ipynb",
+      "schema_valid": true,
+      "compiled_code_cells": 6,
+      "companion_script_AST_matches": true,
+      "imports": [
+        "RobustMesher",
+        "RobustMesher.Io_utils",
+        "RobustMesher.sizing_utils"
+      ],
+      "model_resource": "RobustMesher/velocity_models/vp_marmousi-ii.segy",
+      "stored_error_output_count": 0
+    },
+    {
+      "file": "Meshing3DExample.ipynb",
+      "schema_valid": true,
+      "compiled_code_cells": 6,
+      "companion_script_AST_matches": true,
+      "imports": [
+        "RobustMesher",
+        "RobustMesher.Io_utils",
+        "RobustMesher.sizing_utils"
+      ],
+      "model_resource": "RobustMesher/velocity_models/marmousi_3d_water.bin",
+      "stored_error_output_count": 0
+    }
+  ],
+  "readme": {
+    "relative_links_checked": [
+      "Meshing2DExample.ipynb",
+      "Meshing3DExample.ipynb",
+      "LICENSE",
+      "COPYING"
+    ],
+    "python_code_blocks_compiled": 2,
+    "matches_current_import_name": true
+  },
+  "images": [
+    {
+      "file": "docs/images/marmousi2d1.png",
+      "unchanged_from_supplied_image": true,
+      "sha256": "00cb098ca35c3fff4715160cbcfc067887f220faf5cc269dc0a5f376c1c4e459"
+    },
+    {
+      "file": "docs/images/marmousi3d1.png",
+      "unchanged_from_supplied_image": true,
+      "sha256": "f0e0c79c302eebb5381128da00c30ee6ec623d3423ef1505ec5961d2c4c92997"
+    }
+  ],
+  "wheel": {
+    "filename": "robustmesher-0.1.0-py3-none-any.whl",
+    "size_bytes": 7364445,
+    "CRC_check_passed": true,
+    "all_module_source_bytes_match": true,
+    "model_checks": [
+      {
+        "wheel_entry": "RobustMesher/velocity_models/marmousi.segy",
+        "size_bytes": 7468044,
+        "sha256": "0e64da77b5624577a00e5b3b1ce2a9d2640797b35121daf1a056d69149490345",
+        "matches_full_supplied_model": true
+      },
+      {
+        "wheel_entry": "RobustMesher/velocity_models/marmousi_3d_water.bin",
+        "size_bytes": 137065968,
+        "sha256": "1b854809811881ccb7539f5237611054e17c8cf8426a213312e4d828541a32d9",
+        "matches_full_supplied_model": true
+      },
+      {
+        "wheel_entry": "RobustMesher/velocity_models/vp_marmousi-ii.segy",
+        "size_bytes": 155653444,
+        "sha256": "2722a5de0645d8fcf5750f380893d4875383af9b24988ece0bd07b943f5b0c91",
+        "matches_full_supplied_model": true
+      }
+    ]
+  },
+  "installed_smoke": {
+    "passed": true,
+    "installed_package_file": "/workspace/scratch/ec1e9c7da2e0/robustmesher-renamed-package-t3zj0xmt/installed/RobustMesher/__init__.py",
+    "version": "0.1.0",
+    "generate_mesh_signature": "(sizing_function, *, dimension, velocity_file, length_z, length_x, length_y=None, output_filename='automatic_mesh.msh', **parameters)",
+    "sizing3d_signature": "(fname, hmin, bbox, wl, freq, pad_type=None, pad_size_x=0.0, pad_size_y=0.0, pad_size_z=0.0, grade=0.15, vp_water=None, nz=None, nx=None, ny=None, byte_order='big', axes_order=(0, 1, 2), axes_order_sort='F', dtype='float32')",
+    "models": {
+      "marmousi.segy": 7468044,
+      "marmousi_3d_water.bin": 137065968,
+      "vp_marmousi-ii.segy": 155653444
+    },
+    "native_sizing_tuple_length": 6,
+    "native_sizing_dimensions": [
+      7,
+      7,
+      7
+    ],
+    "native_sizing_min": 180.77142857142886,
+    "native_sizing_max": 206.22857142857174,
+    "native_sizing_query_values": [
+      186.42857142857176,
+      200.5714285714289,
+      193.50000000000034
+    ],
+    "prepared_sizing_context_name": "RobustMesher_prepared_sizing",
+    "renamed_mesh_type_option_accepted": true,
+    "unexpected_dependency_import_attempts": []
+  },
+  "validation_workspace": "/workspace/scratch/ec1e9c7da2e0/robustmesher-renamed-package-t3zj0xmt"
+}
