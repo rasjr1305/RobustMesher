@@ -36,17 +36,15 @@ python3 -m venv robustmesher_env
 source robustmesher_env/bin/activate
 python -m pip install --upgrade pip
 
-git lfs install
 git clone https://github.com/rasjr1305/RobustMesher.git
 cd RobustMesher
-git lfs pull
 
 python -m pip install -e ".[examples]"
 ```
 
 On Windows PowerShell, activate the environment with `robustmesher_env\Scripts\Activate.ps1` instead.
 
-The full Marmousi models are stored in the file RobustMesher.zip in the directory.
+The full Marmousi models can be downloaded in https://www.agl.uh.edu/downloads/vp_marmousi-ii.segy.gz 
 
 Verify the installation:
 
