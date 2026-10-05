@@ -208,55 +208,7 @@ The full 3D run has over one million cells. To explore the workflow with fewer c
 
 ---
 
-## Manual installation on WSL
 
-Install Python, Git LFS, and the Linux libraries required by Gmsh:
-
-```bash
-sudo apt update
-sudo apt install python3 python3-venv python3-pip git git-lfs \
-    libglu1-mesa libgl1 libxft2 libxrender1 libxcursor1 libxinerama1 libfontconfig1
-```
-
-Create an environment, download the repository and models, and install the package:
-
-```bash
-python3 -m venv robustmesher_env
-source robustmesher_env/bin/activate
-python -m pip install --upgrade pip
-
-git lfs install
-git clone https://github.com/rasjr1305/RobustMesher.git
-cd RobustMesher
-git lfs pull
-python -m pip install -e ".[examples]"
-jupyter notebook
-```
-
-If Gmsh import reports a missing `libGLU.so.1`, install `libglu1-mesa` using the command above. The editable installation reads the source from this checkout, so local changes are available immediately.
-
----
-
-## Uploading this repository to GitHub
-
-The supplied ZIP contains the complete model bytes. The included `.gitattributes`
-tracks SEG-Y and binary models with Git LFS. Install Git LFS before adding those
-files to your repository:
-
-```bash
-git lfs install
-git add .gitattributes RobustMesher/velocity_models
-git lfs ls-files
-```
-
-Confirm that the model files appear in the LFS list, then commit and push the
-repository normally. Use Git with LFS rather than the browser uploader for these
-models: the two largest files exceed GitHub's regular 100 MiB file limit.
-See [GitHub's large-file documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
-
-When cloning, `git lfs pull` restores the actual data. A small LFS pointer text
-file is not a usable velocity model. The supplied ZIP itself does not require
-LFS to open or run.
 
 ---
 
